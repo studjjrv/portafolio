@@ -15,7 +15,7 @@
 
 </head>
 <body >   
-    <nav id="index" class="bg-[black] h-[50px] sm:h-[100px] flex justify-between items-center relative px-[15px] border-b-2 border-[#FF006C]" data-aos="flip-up">
+    <nav id="index" class="bg-[black] h-[50px] sm:h-[100px] flex justify-between items-center relative z-[1] px-[15px] border-b-2 border-[#FF006C]" data-aos="flip-up">
         <div class="w-[40px] h-[40px] sm:w-[80px] sm:h-[90px]"><a href="index.html"><img src="images/icon-joaquin.jpg" alt="" ></a></div>
         <input class="hidden peer/menu" type="checkbox" id="btn-menu">
         <label for="btn-menu">            
@@ -35,64 +35,92 @@
             </li>
         </ul>
 
-        <ul class=" hidden text-white sm:flex sm:items-center sm:justify-center sm:gap-[20px] sm:px-[20px]">
-            <li class="h-[50px]  py-[10px]"><a href="#index">inicio</a></li>
-            <li class="h-[50px]  py-[10px]"><a href="#sobremi">sobre mi</a></li>
-            <li class="h-[50px]  py-[10px]"><a href="#habilidades">habilidades</a></li>
-            <li class="h-[50px]  py-[10px]"><a href="#proyectos">proyectos</a></li>
-            <li class="h-[50px]  py-[10px]"><a href="#contactos">contactos</a></li>
+        <ul class=" hidden font-sans sm:text-lg md:text-2xl lg:text-3xl text-white sm:flex sm:items-center sm:justify-center sm:gap-[20px] lg:gap-[30px] sm:px-[20px]">
+            <li class="h-[50px]  py-[10px]"><a href="index.html">inicio</a></li>
+            <li class="h-[50px]  py-[10px]"><a href="about.html">sobre mi</a></li>
+            <li class="h-[50px]  py-[10px]"><a href="habilidades.html">habilidades</a></li>
+            <li class="h-[50px]  py-[10px]"><a href="proyectos.html">proyectos</a></li>
+            <li class="h-[50px]  py-[10px]"><a href="contactos.html">contactos</a></li>
         </ul>
     </nav>
 
     <main>
-        <section class="shadow-2xl" >
-            <div class="flex justify-around items-center font-bold text-2xl">
+        <section class="" >
+
+            <div class="bg-[#026ccf] w-[150px] sm:w-[350px] sm:h-[40px] absolute top-[80px] left-[-40px] sm:top-[180px] sm:left-[-80px] rotate-[-45deg] flex justify-center items-center shadow-[10px_9px_16px_0px_#2b6cb0]	">                 
+
+                <a class="  text-[8px] sm:text-lg text-white font-bold	font-sans" target="_blank" href="https://github.com/studjjrv">SÍGUEME EN GITHUB</a>
+            
+            </div>
+            
+            <div class="flex justify-around items-center font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl">
+                
+                
                 <h1>f-end</h1>
-                <img class="h-[150px] rounded-full relative top-[40px] z-[10]" src="images/foto_joaquin.webp" alt="">
+                <img class="h-[150px] rounded-full relative 
+                top-[40px] sm:top-[70px] md:top-[95px] lg:top-[125px] 
+                
+                z-[-1] sm:h-[250px] md:h-[350px] lg:h-[450px] shadow-[10px_9px_16px_0px_#1a202c]"  src="images/foto_joaquin.webp" alt="">
                 <h1>b-end</h1>
             </div>
         </section>
         
         <section>
             <div class="flex justify-center items-center h-[150px]">
-                <img src="https://fontmeme.com/permalink/230901/e7192cdbc606a50f7676e6b781fe15ba.png" alt="fuentes-para-firmas" class="border-0 w-[35px] ">
-                <img src="https://fontmeme.com/permalink/230901/62128713905ff3e38b507b1050764ecb.png" alt="fuentes-para-firmas" class="border-0 w-[35px]">
-                <img src="https://fontmeme.com/permalink/230901/45de44a433833bff88552eb4a7b54011.png" alt="fuentes-para-firmas" class="border-0 w-[35px]" >
-                <img src="https://fontmeme.com/permalink/230901/70039e6be914c3888b46b7a128f3b0ea.png" alt="fuentes-para-firmas" class="border-0 w-[35px]">
-                <img src="https://fontmeme.com/permalink/230901/c19fe8c87e6835e7022e55e763d11d36.png" alt="fuentes-para-firmas" class="border-0 w-[35px]">
-                <img src="https://fontmeme.com/permalink/230901/f43a72322b7a10b88d661c268fe7e783.png" alt="fuentes-para-firmas" class="border-0 w-[35px]">
-                <img src="https://fontmeme.com/permalink/230901/e9622e4977a201178f31e7cb86184018.png" alt="fuentes-para-firmas" class="border-0 w-[35px]">
+                <img src="https://fontmeme.com/permalink/230901/e7192cdbc606a50f7676e6b781fe15ba.png" alt="fuentes-para-firmas" class="border-0 w-[15px] sm:w-[35px] lg:w-[45px]">
+                <img src="https://fontmeme.com/permalink/230901/62128713905ff3e38b507b1050764ecb.png" alt="fuentes-para-firmas" class="border-0 w-[15px] sm:w-[35px] lg:w-[45px]">
+                <img src="https://fontmeme.com/permalink/230901/45de44a433833bff88552eb4a7b54011.png" alt="fuentes-para-firmas" class="border-0 w-[15px] sm:w-[35px] lg:w-[45px]" >
+                <img src="https://fontmeme.com/permalink/230901/70039e6be914c3888b46b7a128f3b0ea.png" alt="fuentes-para-firmas" class="border-0 w-[15px] sm:w-[35px] lg:w-[45px]">
+                <img src="https://fontmeme.com/permalink/230901/c19fe8c87e6835e7022e55e763d11d36.png" alt="fuentes-para-firmas" class="border-0 w-[15px] sm:w-[35px] lg:w-[45px]">
+                <img src="https://fontmeme.com/permalink/230901/f43a72322b7a10b88d661c268fe7e783.png" alt="fuentes-para-firmas" class="border-0 w-[10px] sm:w-[35px] lg:w-[45px]">
+                <img src="https://fontmeme.com/permalink/230901/e9622e4977a201178f31e7cb86184018.png" alt="fuentes-para-firmas" class="border-0 w-[15px] sm:w-[35px] lg:w-[45px]">
 
             </div>
+            <div class="ml-[25%] h-[1px] w-[50%] bg-black "></div>
+
         </section>
 
-        <section class="bg-blue-300 h-[250px] flex justify-center py-[40px]">
-            <div class="flex flex-col gap-[20px] absolute bg-[#FF006C] rounded-3xl w-[300px] px-[20px] py-[10px]">
-                <h1 class="text-3xl">Bienvenidos.</h1>
-                <p class=" text-justify px-[20px]">Desde hace 6 años he iniciado mi proyecto personal como freelance</p>
-                <p class=" text-justify px-[20px]">Inicialmente como redactor web, con experiencia en redacción SEO, publicitaro, creativo e informativo.</p>
-                <p class=" text-justify px-[20px]">Actualmente me desempeño como desarrollador web full stack, gracias a proceso de capacitación de la mano de los amigos de <a target="_blank" href="https://lexpin.online/">LIxPIN</a></p>
+
+        <section class="bg-white h-[450px] flex justify-center py-[40px]">
+            <div class="flex flex-col gap-[20px] absolute bg-[#FF006C] rounded-3xl w-[300px] px-[20px] py-[10px] sm:w-[600px] sm:h-[550px] shadow-[10px_9px_16px_0px_#1a202c]">
+                <h1 class="text-3xl sm:text-6xl">Bienvenidos.</h1>
+                <p class=" text-justify px-[20px] sm:text-3xl">Desde hace 6 años he iniciado mi proyecto personal como freelance</p>
+                <p class=" text-justify px-[20px] sm:text-3xl">Inicialmente como redactor web, con experiencia en redacción SEO, publicitaro, creativo e informativo.</p>
+                <p class=" text-justify px-[20px] sm:text-3xl">Actualmente me desempeño como desarrollador web full stack, gracias a proceso de capacitación de la mano de los amigos de <a target="_blank" href="https://lexpin.online/">LIxPIN</a></p>
             </div>     
      
         </section>
-        <div class="bg-slate-500 h-[250px]">
+        <div class="bg-slate-500 h-[180px]">
         </div>  
         
     </main>
     <footer>
 
-        <div class="h-[50px] py-[10px] flex justify-center gap-[20px] bg-[black]">
-            <img src="images/twitter.png" alt="">
-            <img src="images/whatsapp.png" alt="">
-            <img src="images/instagram.png" alt="">
-        </div>
+        <div class="h-[100px] py-[10px] flex justify-center sm:justify-end items-center gap-[20px] bg-[black]">
+            <img class="sm:hidden h-[25px] w-[25px]" src="images/twitter.png" alt="">
+            <img class="sm:hidden h-[25px] w-[25px]" src="images/whatsapp.png" alt="">
+            <img class="sm:hidden h-[25px] w-[25px]" src="images/instagram.png" alt="">
 
+
+            <ul class=" hidden text-white font-sans 
+            sm:text-sm 
+            sm:flex sm:gap-[20px]
+            px-[30px]
+            md:text-base lg:text-lg  
+            ">
+                <li class="h-[50px]  py-[10px]"><a href="index.html">inicio</a></li>
+                <li class="h-[50px]  py-[10px]"><a href="about.html">sobre mi</a></li>
+                <li class="h-[50px]  py-[10px]"><a href="habilidades.html">habilidades</a></li>
+                <li class="h-[50px]  py-[10px]"><a href="proyectos.html">proyectos</a></li>
+                <li class="h-[50px]  py-[10px]"><a href="contactos.html">contactos</a></li>
+            </ul>
+        </div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    
+
 </body>
 </html>
